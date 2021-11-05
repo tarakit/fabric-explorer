@@ -342,7 +342,7 @@ approveForMyOrg 2
 ## expect them both to have approved
 checkCommitReadiness 1 "\"Org1MSP\": true" "\"Org2MSP\": true"
 checkCommitReadiness 2 "\"Org1MSP\": true" "\"Org2MSP\": true"
-
+ 
 ## now that we know for sure both orgs have approved, commit the definition
 commitChaincodeDefinition 1 2
 

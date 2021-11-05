@@ -15,7 +15,7 @@ import (
 
 	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
 	"github.com/hyperledger/fabric-sdk-go/pkg/gateway"
-)
+) 
 
 func main() {
 	log.Println("============ application-golang starts ============")
